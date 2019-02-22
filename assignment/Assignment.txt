@@ -1,0 +1,29 @@
+
+[{
+    'first_name' : 'sami',
+    'last_name' : 'jamadar',
+    'email' : 'jamadar.samiulla@gmail.com',
+    'mobile' : '9035385652'
+    'exam_marks':{'physics':55,'chemistry':66,'maths':99}
+    'is_passed' : True,
+    'avg_percentage':73.3
+},
+{
+    'first_name' : 'John',
+    'last_name' : 'Sirname',
+    'email' : 'john@gmail.com',
+    'mobile' : '90555385652'
+    'exam_marks':{'physics':20,'chemistry':66,'maths':25}
+    'is_passed' : False,
+    'avg_percentage':37
+}]
+
+Problem statement : 
+Develope student info storing system with following points,
+1. Ask number of students to be stored. Ex. if user says 2, You have to take 2 students input from user
+ Use fields as mentioned above list.
+2. Store is_passed status by verifying that student got marks above 40 in all subject.
+3. store avg_percentage after calcualting for all subject.
+4. Display passed student differenly and failed student differently.
+
+Note : Make Use of Class, function, lambda function, filter function 
